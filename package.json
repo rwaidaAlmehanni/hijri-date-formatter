@@ -1,0 +1,39 @@
+{
+  "name": "hijri-date-formatter",
+  "version": "1.0.0",
+  "description": "A lightweight library for converting and formatting Gregorian dates to Hijri dates with multilingual support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "keywords": [
+    "hijri",
+    "islamic",
+    "calendar",
+    "date",
+    "conversion",
+    "arabic",
+    "indian numerals"
+  ],
+  "author": "Rwaida Almehanni <rwaida4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hijri-converter": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+   "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwaida4/hijri-date-formatter.git"
+  },
+  "homepage": "https://github.com/rwaida4/hijri-date-formatter#readme"
+}
