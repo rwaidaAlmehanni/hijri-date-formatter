@@ -35,5 +35,8 @@
     "type": "git",
     "url": "https://github.com/rwaidaAlmehanni/hijri-date-formatter.git"
   },
-  "homepage": "https://github.com/rwaidaAlmehanni/hijri-date-formatter#readme"
+  "homepage": "https://github.com/rwaidaAlmehanni/hijri-date-formatter#readme",
+  "bugs": {
+    "url": "https://github.com/rwaidaAlmehanni/hijri-date-formatter/issues"
+  }
 }
